@@ -1,0 +1,26 @@
+{
+  "name": "MOS Score",
+  "script_path": "/usr/local/bin/python 'MOSScore.py'",
+  "description": "Calculates the MOS Score",
+  "working_directory": "",
+  "parameters": [
+    {
+      "name": "Reference",
+      "param": "",
+      "default": "Reference file",
+      "required": "true"
+    },
+    {
+      "name": "Degraded",
+      "param": "",
+      "default": "Output file",
+      "required": "true"
+    },
+    {
+      "name": "Sample Rate",
+      "param": "",
+      "default": "8000",
+      "required": "true"
+    }
+  ]
+}
